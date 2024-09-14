@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E-Commerce Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PurchaseTest(failed)">
+    <classes>
+      <class name="com.automation.tests.PurchaseTest">
+        <methods>
+          <include name="testPurchase"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.tests.PurchaseTest -->
+    </classes>
+  </test> <!-- PurchaseTest(failed) -->
+</suite> <!-- Failed suite [E-Commerce Automation Suite] -->
